@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Generator</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/x-icon" href="Image/backgroundIcon1.png">
+</head>
+
+
+<body>
+<div class="container">
+
+    <div class="color-display">
+        <h1 class="pageTitle">Background Generator</h1>
+        <h1>Explore and experiment with any color of your choice</h1>
+
+        <div class="color-box"></div>
+
+    </div>
+
+    <div class="controls">
+        <p>Generate-Random Color:</p>
+        <button id="generate-btn">Generate</button>
+
+        <br>
+        <br>
+        <p>
+            Customize your color
+        </p>
+        <button id="customize-btn">Customize</button>
+        <input type="color" id="color-picker"/>
+        <br>
+        <br>
+        <p>Try your color:</p>
+        <button id="try-color-btn">Try</button>
+
+    </div>
+
+    <div class="color-code">
+
+        <h2>Color Code:</h2>
+        <input type="text" id="color-code-input" readonly />
+        <button id="copy-btn">Copy</button>
+
+
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

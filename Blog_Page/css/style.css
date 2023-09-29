@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+
+margin-top:25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 5px 5px 2px black;
+  border-radius: 0 15px 0 17px;
+}
+
+.nav-left span {
+  font-size: 35px;
+  padding-top: 10px;
+}
+.nav-left{
+font-size: 17px;
+display: flex;
+font-weight: 500; 
+padding-top: 3px;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 77px;  
+}
+.nav-left ul li {
+list-style: none;
+margin: 0 14px;
+font-family: var(--font2);
+transition: all 0.3s ease-in-out;
+}
+ 
+
+.nav-left ul li a{
+
+    text-decoration: none;
+color: black;
+/* transition: all 0.3s ease-in-out; */
+}
+
+.nav-left ul li a:hover{
+ 
+  color: var(--main-bg-color);
+
+}
+.content{
+  height: 100%;
+  
+  
+  box-shadow: 1px 5px 10px 1px;
+  border-radius: 5px;
+  display: flex;
+  margin-top: 32px;
+  padding: 9px;
+  position: relative;
+
+
+}
+
+.content::after{
+  content: "";
+  background-image: url("../img/11.svg");
+  position: absolute;
+  width: 100%;
+ height: inherit;
+opacity: 0.20;
+border-radius: 12px;
+
+}
+.content-left{
+font-family: var(--font1);
+/* width: 50%; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+ /* padding-left: 15px; */
+padding: 49px;
+z-index: 1;
+
+}
+
+.content-right{
+/* width: 50%; */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.content-right img{
+  height: 355px;
+  border: 1px solid black;
+  border-radius: 200px;
+
+}
+.home-articles{
+padding-top: 18px;
+padding-left: 45px;
+background-color: rgb(248, 239, 239, 0.5);
+margin-top: 23px;
+
+box-shadow: 2px 5px 10px 2px black;
+border-radius: 0 150px 0 100px;
+position: relative;
+margin-bottom: 45px;
+}
+
+.year-box {
+  position: absolute;  
+  right: 0px;
+  top: 100px;
+  width: 234px;
+  height: 255px;
+  font-size: 18px;
+}
+.year-box div {
+  margin: 12px 0px;
+}
+.home-article{
+display: flex;
+margin: 25px;
+}
+ .home-articles img{
+width: 200px;
+/* padding-bottom: 35px; */
+
+}
+
+.home-article-content{
+  align-items: center;
+  padding: 25px;
+}
+
+.home-article-content a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  height: 50px;
+  width: 150vw;
+  margin-bottom: 25px;
+  background-color:var(--main-bg-color);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  flex-direction: column;
+} 
